@@ -6,7 +6,7 @@ import { auth } from "@/auth";
 import { writeClient } from "@/sanity/lib/write-client";
 import { parseServerActionResponse } from "@/lib/utils";
 
-export const createPitch = async (state: any, form: FormData, pitch: string) => {
+export const createPitch = async (_state: unknown, form: FormData, pitch: string) => {
     const session = await auth();
     if (!session) {
         return parseServerActionResponse({
