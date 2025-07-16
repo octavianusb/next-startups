@@ -3,6 +3,8 @@
 A Next.js 15 platform where entrepreneurs can submit their startup ideas for virtual pitch competitions, browse other
 pitches, and gain exposure through a clean minimalistic design.
 
+A live version of the app can be found here: [https://next-startups-octavianusb.vercel.app/](https://next-startups-octavianusb.vercel.app/)
+
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - React 19
